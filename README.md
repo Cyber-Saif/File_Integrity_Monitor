@@ -5,12 +5,12 @@ A Python-based file integrity monitor that scans directories for any abnormal ch
 This tool helps ensure that important files and directories remain unaltered, providing a reliable way to track unauthorized changes and maintain data integrity.
 
 ## Functions:
-- Real-time Monitoring: Periodically checks for changes in files and directories.
-- File Hashing: Uses SHA-256 to generate file hashes for integrity verification.
-- Customizable Paths: Allows users to specify directories to monitor, with options for monitoring the current working directory.
-- Change Detection: Detects file modifications, deletions, and new files, providing real-time alerts on abnormal changes.
-- Baseline File Creation: Generates and stores baseline file hashes for future comparisons, ensuring an easy way to verify file integrity over time.
-- Logging and Data Export: Optionally logs changes and exports the baseline for later use.
+- **Real-time Monitoring:** Periodically checks for changes in files and directories.
+- **File Hashing:** Uses SHA-256 to generate file hashes for integrity verification.
+- **Customizable Paths:** Allows users to specify directories to monitor, with options for monitoring the current working directory.
+- **Change Detection:** Detects file modifications, deletions, and new files, providing real-time alerts on abnormal changes.
+- **Baseline File Creation:** Generates and stores baseline file hashes for future comparisons, ensuring an easy way to verify file integrity over time.
+- **Logging and Data Export:** Optionally logs changes and exports the baseline for later use.
 
 ## Test the Program:
 To help you test the program, you can use the included "To Monitor" folder. It contains sample files. 
