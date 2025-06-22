@@ -13,7 +13,7 @@ This tool helps ensure that important files and directories remain unaltered, pr
 - Logging and Data Export: Optionally logs changes and exports the baseline for later use.
 
 ## Example Usage
-![Monitor Example](https://github.com/user-attachments/assets/03b54a78-76bc-4fde-a5ba-730222591090)
+![Monitor Example](https://github.com/user-attachments/assets/96ff99a4-0173-40e3-ad59-00783cbe110b)
 
 
 ## Important Notes:
