@@ -12,7 +12,30 @@ This tool helps ensure that important files and directories remain unaltered, pr
 - Baseline File Creation: Generates and stores baseline file hashes for future comparisons, ensuring an easy way to verify file integrity over time.
 - Logging and Data Export: Optionally logs changes and exports the baseline for later use.
 
+## Test the Program:
+To help you test the program, you can use the included "To Monitor" folder. It contains sample files. 
+You can:
+- Delete or modify these files.
+- The program will alert you to any changes, deletions, or new additions, showing you how the integrity monitoring works in action.
+
+## Installation:
+Clone this repository and run the script with Python 3.10 or higher. The program will prompt you to select a directory for monitoring or will default to the current working directory.
+Usage:
+- Run the Program: Simply execute the script to start monitoring.
+- User Interaction: You will be prompted to either select a directory or monitor the current working directory.
+- Customizable Options: Configure the program to update the baseline or skip it, depending on your
+
+## Example:
+``` bash
+git clone https://github.com/yourusername/integrity-monitor.git
+cd integrity-monitor
+python3 integrity_monitor.py
+```
+
+
 ## Example Usage
+You can clone the repository and run the program in the current directory to test the program. For testing example folder is attached "To Monitor"
+
 ![Monitor Example](https://github.com/user-attachments/assets/96ff99a4-0173-40e3-ad59-00783cbe110b)
 
 
