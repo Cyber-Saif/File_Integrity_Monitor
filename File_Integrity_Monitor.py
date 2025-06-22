@@ -11,7 +11,6 @@ class IntegrityMonitor:
         self.Exec_dump = True
         self.temp_dir_path = pathlib.Path(tempfile.gettempdir())
         self.temp_path = self.temp_dir_path / '.temp-baseline.json'
-        
 
     def create_hash(self, file):
         """Take files as an input and return the hash"""
@@ -27,7 +26,6 @@ class IntegrityMonitor:
         except Exception as e:
             print(f"An error occured while hashing the file\n{e}")
 
-
     def baseline_dump(self, data):
         """Dumps the file:hash dictionary to the JSON file"""
         if self.Exec_dump:
@@ -39,7 +37,6 @@ class IntegrityMonitor:
 
         self.Exec_dump = False
         return data
-
 
     def directory_enumeration(self, directory_location, data_dump=None):
         """Enumerate the folders and sub-folders to find files &
@@ -53,12 +50,11 @@ class IntegrityMonitor:
                     # Ensure file is within monitored dir
                     if directory_location in resolved_path.parents:
                         data_dump[file.name] = self.create_hash(file)
-
                 except Exception as e:
                     print(e)
                     continue
-        return data_dump
 
+        return data_dump
 
     def user_directory_options(self, to_write=False):
         """User menu to choose the directory to monitor"""
@@ -140,7 +136,6 @@ class IntegrityMonitor:
 
         return real_time_list, baseline_data, baseline_exists
 
-
     def baseline_update_initial_startup(self):
         update_baseline = ''
         tp_status = False
@@ -194,7 +189,6 @@ class IntegrityMonitor:
         while True:
             self.integrity_check(dir_location)
             time.sleep(3)
-
 
     def main(self):
         try:
