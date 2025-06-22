@@ -27,9 +27,9 @@ Usage:
 
 ## Example:
 ``` bash
-git clone https://github.com/yourusername/integrity-monitor.git
-cd integrity-monitor
-python3 integrity_monitor.py
+git clone https://github.com/Cyber-Saif/File_Integrity_Monitor.git
+cd File_Integrity_Monitor
+python3 File_Integrity_Monitor.py
 ```
 
 
